@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Seidel.SLE">
+    <Position X="5.25" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQBAAEAAACA=</HashCode>
+      <FileName>SLE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Seidel.SeidelMethod">
+    <Position X="9" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAABAIAggBAAIAAAAMAEAAAAAkIQBggBAAAAA=</HashCode>
+      <FileName>SeidelMethod.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="res" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Seidel.mainForm">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <Members>
+      <Field Name="a11Tb" Hidden="true" />
+      <Field Name="a12Tb" Hidden="true" />
+      <Field Name="a13Tb" Hidden="true" />
+      <Field Name="a21Tb" Hidden="true" />
+      <Field Name="a22Tb" Hidden="true" />
+      <Field Name="a23Tb" Hidden="true" />
+      <Field Name="a31Tb" Hidden="true" />
+      <Field Name="a32Tb" Hidden="true" />
+      <Field Name="a33Tb" Hidden="true" />
+      <Field Name="b1Tb" Hidden="true" />
+      <Field Name="b2Tb" Hidden="true" />
+      <Field Name="b3Tb" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="epsRb" Hidden="true" />
+      <Method Name="epsRb_CheckedChanged" Hidden="true" />
+      <Field Name="epsTb" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="iterLbl" Hidden="true" />
+      <Field Name="iterRb" Hidden="true" />
+      <Method Name="iterRb_CheckedChanged" Hidden="true" />
+      <Field Name="iterTb" Hidden="true" />
+      <Method Name="mainForm" Hidden="true" />
+      <Method Name="mainForm_Load" Hidden="true" />
+      <Field Name="metroLabel1" Hidden="true" />
+      <Field Name="metroLabel10" Hidden="true" />
+      <Field Name="metroLabel11" Hidden="true" />
+      <Field Name="metroLabel12" Hidden="true" />
+      <Field Name="metroLabel13" Hidden="true" />
+      <Field Name="metroLabel14" Hidden="true" />
+      <Field Name="metroLabel2" Hidden="true" />
+      <Field Name="metroLabel3" Hidden="true" />
+      <Field Name="metroLabel4" Hidden="true" />
+      <Field Name="metroLabel5" Hidden="true" />
+      <Field Name="metroLabel6" Hidden="true" />
+      <Field Name="metroLabel7" Hidden="true" />
+      <Field Name="metroLabel8" Hidden="true" />
+      <Field Name="metroLabel9" Hidden="true" />
+      <Field Name="res1Tb" Hidden="true" />
+      <Field Name="res2Tb" Hidden="true" />
+      <Field Name="res3Tb" Hidden="true" />
+      <Field Name="resGridBtn" Hidden="true" />
+      <Method Name="resGridBtn_Click" Hidden="true" />
+      <Field Name="resIterLbl" Hidden="true" />
+      <Field Name="solveBtn" Hidden="true" />
+      <Method Name="solveBtn_Click" Hidden="true" />
+      <Field Name="testBtn" Hidden="true" />
+      <Method Name="testBtn_Click" Hidden="true" />
+      <Field Name="x1Tb" Hidden="true" />
+      <Field Name="x2Tb" Hidden="true" />
+      <Field Name="x3Tb" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQBBAADAACQAYIAKIhqIICArElIEAQAgAQLAIAAnDAI=</HashCode>
+      <FileName>mainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sle" />
+      <Field Name="sMethod" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Seidel.ResultsGrid">
+    <Position X="13.25" Y="3.25" Width="3.75" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="d1Col" Hidden="true" />
+      <Field Name="d2Col" Hidden="true" />
+      <Field Name="d3Col" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="dmaxCol" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="ResultsGrid_Load" Hidden="true" />
+      <Field Name="x1Col" Hidden="true" />
+      <Field Name="x2Col" Hidden="true" />
+      <Field Name="x3Col" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QBAAAAAAISAICggBAASAAAACAQAAEAACAAAggFAAAAA=</HashCode>
+      <FileName>ResultsGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Seidel.IIterativeMethods">
+    <Position X="9.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIterationMethods.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
